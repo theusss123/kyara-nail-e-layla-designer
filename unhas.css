@@ -4,8 +4,21 @@
     padding: 0%;
 
 }
-.logo{
-    width: 200px;
+.cabecalho{
+    display: flex;
     height: 100px;
-    
+    justify-content: space-around;
+    text-decoration: none;
+
+}
+.logo{
+    width: 150px;
+}
+.navegacao{
+    display: flex;
+    width: 70%;
+    background-color: aquamarine;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 50px;
 }
