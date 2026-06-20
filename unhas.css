@@ -59,10 +59,29 @@
     margin-bottom: 50px;
 }
 
+#nome{                        /*nome da manicurista*/
+    color: #dc6894;
+    text-align: center;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
 
+}
 
+#slogan{                     /*slogan das unhas*/
+    padding: 20px;           /*ele tem que tener um padding para nao ficar colado no nome*/
+    height: 80px; 
+    margin-top: 60px;          /*se afasta da parte superior*/
+    margin-bottom: 70px;
+    background-color: #dc6894; /*cor do fondo do slogan*/
 
+    text-align: center;
+    color: #f6f2f4;
+    font-family: "Cinzel Decorative", serif;  /*fonte do slogan*/
+    font-weight: 700;
+    font-style: normal;
 
+}
 
 
 
@@ -72,18 +91,22 @@
 
 #unhas{              /*fotos das unhas e posicionamento delas*/
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(2, 1fr); /*dos columnas iguais! WoW*/
+    gap: 100px;                            /*afastador maestro*/
+
     width: 80%;
     margin: auto;
 }
 
-#unhas img{
+#unhas img{             /*aqui eu preciso colocar shadow e tentar que elessejam independentes*/
     width: 100%;
     height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 4px, 10px rgba(0, 0, 0, 0.3));
-    transition: transform 0.3s;
+    border-radius: 10px; 
+    transition: 0.3s;
+}
+#unhas img:hover{
+    transform: scale(1.05);  /*aqui eu preciso colocar um shadowque so se vera cuando o maus passar nela*/
+
 }
 
 
