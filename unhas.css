@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0%;
@@ -11,14 +13,143 @@
     text-decoration: none;
 
 }
-.logo{
-    width: 150px;
+.logo{             /*LOGO DO SITE*/
+    width: 100px;  /*TAMANHO DO LOGO*/
+    height: 100px;
+    Display: flex;
+
 }
-.navegacao{
-    display: flex;
+.navegacao{            /*barra de NAVEGAÇÃO*/
+    display: flex;     
     width: 70%;
-    background-color: aquamarine;
+    background-color:#dc6894;  /*cor da barra de navegação*/
     justify-content: space-between;
-    text-decoration: none;
-    padding: 50px;
+    padding: 25px;       /*caixa que mantem os links */
+    margin-top: 40px;     /*afasta a caixa da tela superior*/
+    margin-bottom: 50px;
+
 }
+.navegacao a{          /*links da barra de navegação*/
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-family: "Cinzel Decorative", serif;       /*fonte dos links da barra de navegação*/
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 20px;   /*ese daqui e o espaco entre A IMAGEM E O TEXTO*/
+}
+
+.KIARAFOTO{                /*FOTO DE KYARA NAILS*/
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#unhas{              /*fotos das unhas e posicionamento delas*/
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+#unhas img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 4px, 10px rgba(0, 0, 0, 0.3));
+    transition: transform 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.cinzel-decorative-regular {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cinzel-decorative-bold {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cinzel-decorative-black {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+*/
