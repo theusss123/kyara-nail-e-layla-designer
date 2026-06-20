@@ -24,9 +24,11 @@
     width: 70%;
     background-color:#dc6894;  /*cor da barra de navegação*/
     justify-content: space-between;
-    padding: 25px;       /*caixa que mantem os links */
+    padding: 20px;       /*caixa que mantem os links */
     margin-top: 40px;     /*afasta a caixa da tela superior*/
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    align-items: center; /* alinea los itens de navegacao */
+
 
 }
 .navegacao a{          /*links da barra de navegação*/
@@ -86,8 +88,9 @@
     text-align: start;
     font-family: "Cinzel Decorative", serif;  /*fonte*/
     font-weight: 700;
-    font-style: normal;
+    font-style: normal;                     
 }
+
 
 
 

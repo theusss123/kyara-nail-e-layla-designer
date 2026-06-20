@@ -20,13 +20,15 @@
     Display: flex;
 }
 .navegacao{            /*barra de NAVEGAÇÃO*/
-    display: flex;     
-    width: 70%;
-    background-color:#dc6894;  /*cor da barra de navegação*/
-    justify-content: space-between;
-    padding: 25px;       /*caixa que mantem os links */
-    margin-top: 40px;     /*afasta a caixa da tela superior*/
-    margin-bottom: 50px;
+  display: flex;     
+  width: 70%;
+  background-color:#dc6894;  /*cor da barra de navegação*/
+  justify-content: space-between;
+  padding: 20px;       /*caixa que mantem os links */
+  margin-top: 40px;     /*afasta a caixa da tela superior*/
+  margin-bottom: 40px;
+  align-items: center; /* ESTA es la clave, centralisa */
+
 
 }
 .navegacao a{          /*links da barra de navegação*/
