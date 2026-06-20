@@ -101,42 +101,6 @@
 
 
 
-.unhas {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);    /* dois colunas iguais */
-  gap: 100px;  /* espaço entre as imagens */
-  width: 80%;
-  margin: auto;/* centraliza o bloco */
-}
-
-.unhas img {
-  width: 100%;
-  height: auto;
-
-  border-radius: 12px;
-
-  /* sombra */
-  box-shadow:
-    -10px 10px 0px rgba(0, 0, 0, 0.15),
-    0 12px 35px rgba(0, 0, 0, 0.25);
-
-  transition: all 0.35s ease;
-}
-
-.unhas img:hover {     /* cambia cuando passa o maus,*/
-  transform: translateY(-8px) scale(1.05);
-  box-shadow:-14px 14px 0px rgba(255, 105, 180, 0.25),
-  0 18px 45px rgba(0, 0, 0, 0.35);
-}
-
-
-
-
-
-
-
-
-
 
 
 
