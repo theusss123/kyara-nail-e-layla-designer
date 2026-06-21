@@ -6,41 +6,43 @@
     padding: 0%;
 
 }
-.cabecalho{
-    display: flex;
-    height: 100px;
-    justify-content: space-around;
-    text-decoration: none;
 
-}
 
-.logo{             /*LOGO DO SITE*/
-    width: 100px;  /*TAMANHO DO LOGO*/
-    height: 100px;
+
+header img{             /*LOGO DO SITE*/
+    width: 120px;  /*TAMANHO DO LOGO*/
+    height: 120px;
     Display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
 }
-.navegacao{            /*barra de NAVEGAÇÃO*/
-    display: flex;     
-    width: 70%;
-    background-color:#dc6894;  /*cor da barra de navegação*/
+
+header{
+    display: flex;
     justify-content: space-between;
-    padding: 20px;       /*caixa que mantem os links */
-    margin-top: 40px;     /*afasta a caixa da tela superior*/
-    margin-bottom: 40px;
-    align-items: center; /* alinea los itens de navegacao */
-
-
 }
-.navegacao a{          /*links da barra de navegação*/
+
+header a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: black;
     font-size: 18px;
-    font-weight: bold;
-    transition: color 0.3s;
     font-family: "Cinzel Decorative", serif;       /*fonte dos links da barra de navegação*/
     font-weight: 400;
     font-style: normal;
+    padding: 10px;
 }
+
+header a:hover{
+    color: #dc6894; /*cor do link quando o mouse passa por cima*/
+}
+
+.navegacao{            /*barra de NAVEGAÇÃO*/     
+    padding: 20px;       /*caixa que mantem os links */
+    margin-top: 50px;     /*afasta a caixa da tela superior*/
+    margin-right: 70px;
+}
+
+
 
 
 

@@ -6,6 +6,207 @@
     margin: 0%;
 }
 
-body{
-    background-color: white;
+header img{             /*LOGO DO SITE*/
+    width: 120px;  /*TAMANHO DO LOGO*/
+    height: 120px;
+    Display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: "Cinzel Decorative", serif;       /*fonte dos links da barra de navegação*/
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+}
+
+header a:hover{
+    color: #dc6894; /*cor do link quando o mouse passa por cima*/
+}
+
+.navegacao{            /*barra de NAVEGAÇÃO*/     
+    padding: 20px;       /*caixa que mantem os links */
+    margin-top: 50px;     /*afasta a caixa da tela superior*/
+    margin-right: 70px;
+}
+
+#inicio{
+    background-image: url("./imagens/Banner\ bom.jpeg");
+    background-size: cover;
+    background-position: center bottom; 
+    height: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+#inicio p{
+    color: white;
+    font-size: 24px;
+    font-family: "Cinzel Decorative", serif;       /*fonte do slogan*/
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top: 120px;
+
+}
+
+.botao-inicio{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#inicio button{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: "Cinzel Decorative", serif;       /*fonte do botão*/
+    font-weight: 400;
+    font-style: normal;
+    background-color: #dc6894; /*cor do botão*/
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#inicio button:hover{
+    background-color: #c15a7e; /*cor do botão quando o mouse passa por cima*/
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+
+#introducao{
+    display: flex;
+    gap: 20px;   
+    margin-left: 200px;
+    margin-right: 00px;
+    margin-bottom: 100px;
+}
+
+#introducao img{                            
+    width: 500px;
+    height: 500px;
+    box-shadow: -36px 33px 0px 10px #dc6894;
+    -webkit-box-shadow: -36px 33px 0px 10px #dc6894;
+}
+ 
+#introducao h2{
+    font-size: 30px;
+    font-family: "Cinzel Decorative", serif;       
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    text-align: center;
+} 
+
+#introducao p{
+    font-size: 18px;
+    font-family: "Cinzel Decorative", serif;       /*fonte do texto de introdução*/
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+#caixa-sobre{
+    background-color: #dc6894;
+    padding: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+#servicos{
+    background-color: #dc6894;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+#servicos h2{
+    font-size: 30px;
+    font-family: "Cinzel Decorative", serif;       
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+
+#servicos h3{
+    font-size: 18px;
+    font-family: "Cinzel Decorative", serif;       
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+
+#servicos img{
+    width:280px;
+    height: 300px;
+    margin: 20px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+    font-family: "Cinzel Decorative", serif;   
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer h2{
+    font-size: 20px;
+    font-family: "Cinzel Decorative", serif;       
+    font-weight: bold;
+    font-style: normal;
+    color: #dc6894;
+    margin-top: 100px;
+}
+
+footer img{
+    width: 120px;
+    height: 120px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.direitos{
+    text-align: center;
+    color: #dc6894;
+    font-family: "Cinzel Decorative", serif;   
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer a:hover{
+    color: #dc6894; /*cor do link quando o mouse passa por cima*/
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Cinzel Decorative", serif;       
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
