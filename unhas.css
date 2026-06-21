@@ -11,23 +11,21 @@
     height: 100px;
     justify-content: space-around;
     text-decoration: none;
-
 }
 
-.logo{             /*LOGO DO SITE*/
+.logo img{             /*LOGO DO SITE*/
     width: 100px;  /*TAMANHO DO LOGO*/
     height: 100px;
     Display: flex;
+    margin-top: 20px;
 }
 .navegacao{            /*barra de NAVEGAÇÃO*/
     display: flex;     
     width: 70%;
     background-color:#dc6894;  /*cor da barra de navegação*/
     justify-content: space-between;
-    padding: 25px;       /*caixa que mantem os links */
+    padding: 20px;       /*caixa que mantem os links */
     margin-top: 40px;     /*afasta a caixa da tela superior*/
-    margin-bottom: 50px;
-
 }
 .navegacao a{          /*links da barra de navegação*/
     text-decoration: none;
@@ -37,7 +35,7 @@
     transition: color 0.3s;
     font-family: "Cinzel Decorative", serif;       /*fonte dos links da barra de navegação*/
     font-weight: 400;
-    font-style: normal;
+    font-style: normal; 
 }
 
 
