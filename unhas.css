@@ -43,76 +43,163 @@ header a:hover{
 
 
 
-
-
-
-
-.KIARAFOTO{                /*FOTO DE KYARA NAILS*/
-    margin-top: 80px;
-    display: block;         /*elimina espacos */
-    line-height: 0;         /*quita o espaco horizontal restante*/
+.introducao{
+    display: flex;
 }
 
-#nome{                        /*nome da manicurista*/
-    color: #dc6894;
+.introducao img{                
+    width: 400px;
+    margin-left: 60px;
+}
+
+.texto{
+    padding: 20px;
+    font-family: "Cinzel Decorative", serif;       /*fonte do texto da introdução*/
     text-align: center;
-    font-family: "Cinzel Decorative", serif;
-    font-weight: 700;
-    font-style: normal;
-
-}
-
-#slogan{                     /*slogan das unhas*/
-    padding: 20px;           /*ele tem que tener um padding para nao ficar colado no nome*/
-    height: 80px; 
-    margin-top: 60px;          /*se afasta da parte superior*/
-    margin-bottom: 70px;
-    background-color: #dc6894; /*cor do fondo do slogan*/
-
-    text-align: center;
-    color: #f6f2f4;
-    font-family: "Cinzel Decorative", serif;  /*fonte do slogan*/
-    font-weight: 700;
-    font-style: normal;
-
-}
-
-.linha-horizontal{         /*linha horizontal que separa a foto do texto*/
-    border:none;
-    height: 10px;           /*isso aqui funciona como um padding na linha horizontal*/
-    width: 100vw;
-    background-color: #dc6894;
-    margin: 0;
    
 }
 
-.unhas {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);    /* dois colunas iguais */
-  gap: 100px;  /* espaço entre as imagens */
-  width: 80%;
-  margin: auto;/* centraliza o bloco */
+.texto h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    font-size: 30px;
 }
 
-.unhas img {
-  width: 100%;
-  height: auto;
-
-  border-radius: 12px;
-
-  /* sombra */
-  box-shadow:
-    -10px 10px 0px rgba(0, 0, 0, 0.15),
-    0 12px 35px rgba(0, 0, 0, 0.25);
-
-  transition: all 0.35s ease;
+.texto h3{
+    background-color: #dc6894;
+    color: white;
+    padding: 25px;          /*padding do texto unhas em arte*/
+    margin-bottom: 20px;
+    width: 400px;
+    margin-left: 200px;
+    font-size: 18px;
 }
 
-.unhas img:hover {     /* cambia cuando passa o maus,*/
-  transform: translateY(-8px) scale(1.05);
-  box-shadow:-14px 14px 0px rgba(255, 105, 180, 0.25),
-  0 18px 45px rgba(0, 0, 0, 0.35);
+.texto h4{
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-left: 140px;
 }
+
+.servicos{
+    display: flex;
+    margin-left: 120px;
+}
+
+.servicos h2{
+    font-style: normal;
+    font-weight: normal;
+    font-family: "Cinzel Decorative", serif;
+    font-size: 18px;
+}
+
+.texto-servicos{
+    font-family: "Cinzel Decorative", serif;
+    font-size: 18px;
+    padding: 50px;  
+    font-weight: normal;     
+    text-align: center;
+    background-color: #dc6894;
+    color: white;
+    margin: 100px;
+    width: 400px;
+}  
+
+.servicos img{
+    width: 400px;
+    height: 400px;
+    margin-top: 120px;
+}
+
+.servicos img:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+ul {
+  text-align: left; 
+  list-style: none; 
+}
+
+.galeria h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Cinzel Decorative", serif;
+    font-style: normal;
+}
+
+.galeria-imagens{
+    display: flex;
+}
+
+.galeria-imagens img{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    
+}
+
+.galeria-imagens img:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+    font-family: "Cinzel Decorative", serif;   
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer h2{
+    font-size: 20px;
+    font-family: "Cinzel Decorative", serif;       
+    font-weight: bold;
+    font-style: normal;
+    color: #dc6894;
+    margin-top: 100px;
+}
+
+footer img{
+    width: 120px;
+    height: 120px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.direitos{
+    text-align: center;
+    color: #dc6894;
+    font-family: "Cinzel Decorative", serif;   
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer a:hover{
+    color: #dc6894; /*cor do link quando o mouse passa por cima*/
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Cinzel Decorative", serif;       
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+
+
+
 
 
 
