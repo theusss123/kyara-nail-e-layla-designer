@@ -19,14 +19,7 @@
     Display: flex;
     margin-top: 20px;
 }
-.navegacao{            /*barra de NAVEGAÇÃO*/
-    display: flex;     
-    width: 70%;
-    background-color:#dc6894;  /*cor da barra de navegação*/
-    justify-content: space-between;
-    padding: 20px;       /*caixa que mantem os links */
-    margin-top: 40px;     /*afasta a caixa da tela superior*/
-}
+
 .navegacao a{          /*links da barra de navegação*/
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -37,11 +30,6 @@
     font-weight: 400;
     font-style: normal; 
 }
-
-
-
-
-
 
 .container{
     display: flex;
@@ -54,12 +42,6 @@
     display: block;         /*elimina espacos */
     line-height: 0;         /*quita o espaco horizontal restante*/
 }
-
-
-
-
-
-/*TEXTO DA PAGINA PRINCIPAL*/
 
 #nome{                        /*nome da manicurista*/
     color: #dc6894;
@@ -93,11 +75,6 @@
     margin: 0;
    
 }
-
-
-
-
-
 
 .unhas {
   display: grid;
@@ -153,40 +130,3 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.cinzel-decorative-regular {
-  font-family: "Cinzel Decorative", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.cinzel-decorative-bold {
-  font-family: "Cinzel Decorative", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.cinzel-decorative-black {
-  font-family: "Cinzel Decorative", serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-*/

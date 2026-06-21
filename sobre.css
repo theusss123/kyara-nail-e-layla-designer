@@ -24,9 +24,11 @@
     width: 70%;
     background-color:#dc6894;  /*cor da barra de navegação*/
     justify-content: space-between;
-    padding: 25px;       /*caixa que mantem os links */
+    padding: 20px;       /*caixa que mantem os links */
     margin-top: 40px;     /*afasta a caixa da tela superior*/
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    align-items: center; /* alinea los itens de navegacao */
+
 
 }
 .navegacao a{          /*links da barra de navegação*/
@@ -45,58 +47,49 @@
 
 
 
-.container{
+.container{               /* */
+
     display: flex;
     align-items: center;
     gap: 20px;   /*ese daqui e o espaco entre A IMAGEM E O TEXTO*/
 }
 
-.KIARAFOTO{                /*FOTO DE KYARA NAILS*/
+#LAILA-img{                /*FOTO DE LAILA*/
     margin-top: 80px;
-    display: block;         /*elimina espacos */
-    line-height: 0;         /*quita o espaco horizontal restante*/
+    margin-left: 20px;
 }
 
+/*TEXTO e imagens DA PAGINA PRINCIPAL */
 
-
-
-
-/*TEXTO DA PAGINA PRINCIPAL*/
-
-#nome{                        /*nome da manicurista*/
-    color: #dc6894;
-    text-align: center;
-    font-family: "Cinzel Decorative", serif;
-    font-weight: 700;
-    font-style: normal;
-
-}
-
-#slogan{                     /*slogan das unhas*/
-    padding: 20px;           /*ele tem que tener um padding para nao ficar colado no nome*/
+#historia{                     /*historia de laila*/
+    padding: 230px;           /*ele tem que tener um padding para nao ficar colado no nome*/
     height: 80px; 
-    margin-top: 60px;          /*se afasta da parte superior*/
-    margin-bottom: 70px;
-    background-color: #dc6894; /*cor do fondo do slogan*/
-
-    text-align: center;
+    margin-top: 80px;          /*afastadores*/
+    margin-bottom: 1px;
+    margin-left: 10px;
+    margin-right: 20px;
+    background-color: #040404; /*cor do fondo das letras da historia*/
     color: #f6f2f4;
-    font-family: "Cinzel Decorative", serif;  /*fonte do slogan*/
+    text-align: start;
+    font-family: "Cinzel Decorative", serif;  /*fonte*/
     font-weight: 700;
     font-style: normal;
 
 }
-
-.linha-horizontal{         /*linha horizontal que separa a foto do texto*/
-    border:none;
-    height: 10px;           /*isso aqui funciona como um padding na linha horizontal*/
-    width: 100vw;
-    background-color: #dc6894;
-    margin: 0;
-   
+#texto{     /*esta es la parte na que fica o texto de KIARA NAIL*/
+    padding: 230px;           /*ele tem que tener um padding para nao ficar colado no nome*/
+    height: 80px;             
+    margin-top: 80px;          /*afastadores*/
+    margin-bottom: 60px;
+    margin-left: 20px;
+    margin-right: 30px;
+    background-color: #dc6894; /*cor do fondo das letras da historia*/
+    color: #f6f2f4;
+    text-align: start;
+    font-family: "Cinzel Decorative", serif;  /*fonte*/
+    font-weight: 700;
+    font-style: normal;                     
 }
-
-
 
 
 
