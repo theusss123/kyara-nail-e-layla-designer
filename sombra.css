@@ -50,15 +50,14 @@ header a:hover{
 .texto{
     padding: 20px;
     font-family: "Cinzel Decorative", serif;       /*fonte do texto da introdução*/
-
     text-align: center;
 }
 
 .texto h2{
-    text-align: center;
     font-size: 30px;
     margin-bottom: 20px;
     font-size: 30px;
+    text-align: center;
 }
 
 .texto h3{
@@ -69,6 +68,7 @@ header a:hover{
     width: 400px;
     margin-left: 150px;
     font-size: 18px;
+    border-radius: 20px;
 }
 
 .texto h4{
@@ -98,12 +98,14 @@ header a:hover{
     color: white;
     margin: 100px;
     width: 400px;
+    border-radius: 20px;
 }  
 
 .servicos img{
     width: 400px;
     height: 400px;
-    margin-top: 120px;
+    margin-top: 143px;
+    border-radius: 20px;
 }
 
 .servicos img:hover{
@@ -132,7 +134,7 @@ ul {
     width: 300px;
     height: 300px;
     margin: 20px;
-    
+    border-radius: 20px;
 }
 
 .galeria-imagens img:hover{

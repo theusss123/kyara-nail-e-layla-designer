@@ -127,6 +127,7 @@ header a:hover{
     margin-right: 100px;
     margin-bottom: 100px;
     margin-top: 100px;
+    border-radius: 20px;
 }
 
 #servicos{
@@ -159,6 +160,12 @@ header a:hover{
     width:280px;
     height: 300px;
     margin: 20px;
+    border-radius: 20px;
+}
+
+#servicos img:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
 }
 
 .rodape{

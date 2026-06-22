@@ -2,11 +2,9 @@
 
 *{
     box-sizing: border-box;
-    margin: 0%;
     padding: 0%;
-
+    margin: 0%;
 }
-
 
 header img{             /*LOGO DO SITE*/
     width: 120px;  /*TAMANHO DO LOGO*/
@@ -41,117 +39,97 @@ header a:hover{
     margin-right: 70px;
 }
 
-
-
-.introducao{
-    display: flex;
-}
-
-.introducao img{                
-    width: 400px;
-    margin-left: 60px;
-}
-
-.texto{
-    padding: 20px;
-    font-family: "Cinzel Decorative", serif;       /*fonte do texto da introdução*/
+.inicio h1{
     text-align: center;
-   
-}
-
-.texto h2{
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 20px;
-    margin-right: 120px;
-    margin-left: 160px;
-    font-size: 30px;
-    color: #dc6894;   /*color texto kyara nail*/
-}
-
-.texto h3{
-    background-color: #dc6894;
-    border-radius: 20px;
-    color: white;
-    padding: 25px;          /*padding do texto unhas em arte*/
-    margin-bottom: 20px;
-    width: 400px;
-    margin-left: 200px;
-    font-size: 18px;
-}
-
-.texto h4{
-    text-decoration: none;
-    font-size: 18px;
-    margin-top: 40px;
     color: #dc6894;
+    font-family: "Cinzel Decorative", serif;
+    font-size: 30px;
 }
 
-.servicos{
-    display: flex;
-    margin-left: 120px;
-}
-
-.servicos h2{
+.inicio h2{
+    text-align: center;
+    color: #dc6894;
+    font-family: "Cinzel Decorative", serif;
     font-style: normal;
     font-weight: normal;
-    font-family: "Cinzel Decorative", serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 
-.texto-servicos{
-    font-family: "Cinzel Decorative", serif;
-    font-size: 18px;
-    padding: 50px;  
-    font-weight: normal;     
-    text-align: center;
+.formulario{
     background-color: #dc6894;
     color: white;
-    margin: 100px;
-    width: 400px;
-    border-radius: 20px;
-}  
-
-.servicos img{
-    width: 400px;
-    height: 400px;
-    margin-top: 160px;
-    border-radius: 20px;
-}
-
-.servicos img:hover{
-    transform: translateY(-10px);
-    transition: 0.5s;
-}
-
-ul {
-  text-align: left; 
-  list-style: none; 
-}
-
-.galeria h2{
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 20px;
     font-family: "Cinzel Decorative", serif;
-    font-style: normal;
+    padding: 100px;
+    margin: 50px;
+    border-radius: 20px;
+    flex-direction: column;
 }
 
-.galeria-imagens{
+.formulario h2{
+    font-size: 30px;
+}
+
+.formulario h3{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.caixa-form{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
     display: flex;
 }
 
-.galeria-imagens img{
-    width: 300px;
-    height: 300px;
-    margin: 10px;
+#servico{
+    width: 400px;
+    height: 40px;
     border-radius: 20px;
-    
+    border: none;
+    text-align: center;
+    display: flex;  
 }
 
-.galeria-imagens img:hover{
-    transform: translateY(-10px);
-    transition: 0.5s;
+#horario{
+    text-align: center;
+}
+
+#mensagem{
+    height: 200px;
+    width: 430px;
+}
+
+#confirmar{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: "Cinzel Decorative", serif;       /*fonte do botão*/
+    font-weight: 400;
+    font-style: normal;
+    background-color: #9e4b6a; /*cor do botão*/
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#limpar{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: "Cinzel Decorative", serif;       /*fonte do botão*/
+    font-weight: 400;
+    font-style: normal;
+    background-color: #9e4b6a; /*cor do botão*/
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
 }
 
 .rodape{
@@ -202,34 +180,3 @@ footer a{
     font-style: normal;
     color: black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

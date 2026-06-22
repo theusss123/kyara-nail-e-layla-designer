@@ -5,52 +5,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Início</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src="main.js">
+    <link rel="stylesheet" href="./contato.css">
+    <script src="contato.js">
 
     </script>
 </head>
 
 <body>
-    <header> 
-        <div class="cabecalho">
-            <div class="logo">
-                <img src="./imagens/logo.png" alt="logo" class="logo"> <!--logo da pagina-->
-            </div>
-            <div class="navegacao">          <!--barra de navegação-->
-                <a href="./index.html">serviços</a>
+    <header>
+        <a href="./index.html"><img src="./imagens/logo.png" alt="logo" class="logo"></a> <!--logo da pagina-->
+        <div class="navegacao"> <!--barra de navegação-->
+            <nav> <!--barra de navegação-->
+                <a href="#servicos">serviços</a>
                 <a href="./unhas.html">unhas</a>
                 <a href="./sombra.html">sobrancelhas</a>
                 <a href="./sobre.html">Sobre</a>
                 <a href="./contato.html">Contato</a>
-            </div>
+            </nav>
         </div>
     </header>
 
     <main>
-        
-        <section id="formulario">
-            <h1>AGENDE SEU HORÁRIO</h1>
-            <br>
-            <br> <!--QUBRA A LINHA-->
-            <form action="#"> <!--DEFINE A AÇÃO REALIZADA-->
-            <h2>Nome</h2>
-            <br>
-            <input id="email" type="email" placeholder="email"> <!--CAMPO DE EMAIL-->
-            <br>
-            <br>
-            <h2>Horário</h2>
-            <br>
-            <input id="nome" type="text" placeholder="Nome">
-            <br>
-            <br>
-            <h2>Qual atendimento você deseja ?</h2>
-            <br>
-            <input id="mensagem" type="text" placeholder="Mensagem">
-            </form>
+        <section class="inicio">
+            <h1>Agende seu horário </h1>
+            <h2>Escolha o melhor dia e horário para você</h2>
+        </section>
+
+        <section class="caixa-form">
+            <div class="formulario">
+                <form action="#">
+                    <h2>Dados Pessoais</h2>
+                    <br>
+                    <br>
+                    <h3>Nome Completo</h3>
+                    <br>
+                    <input id="nome" type="text" placeholder="Seu nome completo">
+                    <br>
+                    <br>
+                    <h3>Telefone</h3>
+                    <br>
+                    <input id="numero" type="tel" placeholder="(11) 99999-9999">
+                    <br>
+                    <br>
+                    <h3>E-mail</h3>
+                    <br>
+                    <input id="email" type="email" placeholder="Seu@email.com">
+                    <br>
+                    <br>
+                    <hr>
+                    <br>
+                    <br>
+                    <h2>Agendamento</h2>
+                    <br>
+                    <br>
+                    <h3>Serviço</h3>
+                    <br>
+                    <select id="servico">
+                        <option value="">Selecione um serviço</option>
+                        <option value="Mold F1">Mold F1</option>
+                        <option value="Nail Art e Flor 3D">Nail Art e Flor 3D</option>
+                        <option value="Unha de Fibra de Gel">Unha de Fibra de Gel</option>
+                        <option value="Banho de Gel">Banho de Gel</option>
+                        <option value="Baby Boomer">Baby Boomer</option>
+                        <option value="Brow Lamination">Brow Lamination</option>
+                        <option value="Design com Henna">Design com Henna</option>
+                        <option value="Lash Lifting">Lash Lifting'</option>
+                        <option value="Design de Sobrancelhas">Design de Sobrancelhas</option>
+                        <option value="Spa Labial">Spa Labial</option>
+                    </select>
+                    <br>
+                    <br>
+                    <h3>Data</h3>
+                    <br>
+                    <input id="data" type="date" placeholder="dd/mm/aaaa">
+                    <br>
+                    <br>
+                    <h3>Horário</h3>
+                    <br>
+                    <input id="horario" type="time" placeholder="Selecione um horário" required>
+                    <br>
+                    <br>
+                    <hr>
+                    <br>
+                    <br>
+                    <h2>Observações</h2>
+                    <br>
+                    <br>
+                    <h3>Mensagem (opcional)</h3>
+                    <br>
+                    <input id="mensagem" type="text" placeholder="Deixe aqui alguma informação importante sobre o seu agendamento...">
+                    <br>
+                    <br>
+                    <div class="botoes">
+                        <button id="confirmar">Confirmar agendamento</button>
+                        <button id="limpar">Limpar</button>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
-
+    <footer>
+        <div class="rodape">
+            <div class="local">
+                <h2>Localização</h2>
+                <br>
+                <a href="https://maps.app.goo.gl/xZMpnD43LEBUPVFs6" target="_blank">Avenida maria Antônia martins, 180</a>
+            </div>
+            <div class="logo-footer">
+                <img src="./imagens/logo.png" alt="logo" class="logo">
+            </div>
+            <div class="insta">
+                <h2>Instagram</h2>
+                <br>
+                <a href="https://www.instagram.com/kyaraoliveiranails/" target="_blank">kyaraoliveiranails</a>
+                <br>
+                <br>
+                <a href="https://www.instagram.com/layladesignerr_/" target="_blank">layladesignerr_</a>
+            </div>
+        </div>
+        <div class="direitos">
+            © 2026 KYARA E LAYLA. Todos os direitos reservados.
+        </div>
+    </footer>
 </body>
 
 </html>
