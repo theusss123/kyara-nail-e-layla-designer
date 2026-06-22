@@ -9,9 +9,8 @@
 header img{             /*LOGO DO SITE*/
     width: 120px;  /*TAMANHO DO LOGO*/
     height: 120px;
-    Display: flex;
-    margin-top: 20px;
-    margin-left: 20px;
+    display: flex;
+
 }
 
 header{
@@ -216,4 +215,5 @@ footer a{
     font-style: normal;
     color: black;
 }
+
 

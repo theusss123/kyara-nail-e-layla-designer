@@ -35,13 +35,13 @@ header a:hover{
     color: #dc6894; /*cor do link quando o mouse passa por cima*/
 }
 
-.navegacao{            /*barra de NAVEGAÇÃO*/     
+.navegacao{            /*barra de NAVEGAÇÃO*/   
+    display: flex;  
+    justify-content: space-around;
     padding: 20px;       /*caixa que mantem os links */
     margin-top: 50px;     /*afasta a caixa da tela superior*/
-    margin-right: 70px;
+    /*margin-right: 70px;*/
 }
-
-
 
 .introducao{
     display: flex;
@@ -49,34 +49,35 @@ header a:hover{
 
 .introducao img{                
     width: 400px;
-    margin-left: 60px;
+  /*margin-left:60px*/
 }
 
 .texto{
     padding: 20px;
     font-family: "Cinzel Decorative", serif;       /*fonte do texto da introdução*/
-    text-align: center;
-   
 }
 
 .texto h2{
     text-align: center;
     font-size: 30px;
-    margin-bottom: 20px;
+  /*  margin-bottom: 20px;
     margin-right: 120px;
-    margin-left: 160px;
+    margin-left: 160px;*/
     font-size: 30px;
     color: #dc6894;   /*color texto kyara nail*/
+    margin-bottom: 20px;
 }
 
 .texto h3{
+    
     background-color: #dc6894;
     border-radius: 20px;
     color: white;
     padding: 25px;          /*padding do texto unhas em arte*/
-    margin-bottom: 20px;
+    
+   /* margin-bottom: 20px;*/
     width: 400px;
-    margin-left: 200px;
+   /* margin-left: 200px;*/
     font-size: 18px;
 }
 
@@ -87,9 +88,22 @@ header a:hover{
     color: #dc6894;
 }
 
+.slogan{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.transfor{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
 .servicos{
     display: flex;
-    margin-left: 120px;
+    justify-content: center;
+    gap: 100px;
 }
 
 .servicos h2{
@@ -99,6 +113,9 @@ header a:hover{
     font-size: 18px;
 }
 
+
+
+
 .texto-servicos{
     font-family: "Cinzel Decorative", serif;
     font-size: 18px;
@@ -107,9 +124,11 @@ header a:hover{
     text-align: center;
     background-color: #dc6894;
     color: white;
-    margin: 100px;
+   /* margin: 100px;*/
     width: 400px;
     border-radius: 20px;
+    margin-top: 50px;
+   
 }  
 
 .servicos img{
@@ -117,6 +136,12 @@ header a:hover{
     height: 400px;
     margin-top: 160px;
     border-radius: 20px;
+}
+
+.servicos-total{
+    display: flex;
+    gap:100px;
+    margin-bottom: 50px;
 }
 
 .servicos img:hover{
@@ -139,6 +164,7 @@ ul {
 
 .galeria-imagens{
     display: flex;
+    justify-content: center;
 }
 
 .galeria-imagens img{
@@ -153,6 +179,13 @@ ul {
     transform: translateY(-10px);
     transition: 0.5s;
 }
+
+.fotos-unha{
+   
+
+}
+
+
 
 .rodape{
     display: flex;
@@ -202,6 +235,7 @@ footer a{
     font-style: normal;
     color: black;
 }
+
 
 
 
