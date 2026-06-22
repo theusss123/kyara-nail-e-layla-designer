@@ -84,9 +84,11 @@ header a:hover{
     font-size: 18px;
 }
 
+
+
 .servicos{
     display: flex;
- 
+    justify-content: center;
 }
 
 .servicos h2{

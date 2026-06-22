@@ -9,8 +9,9 @@
 header img{             /*LOGO DO SITE*/
     width: 120px;  /*TAMANHO DO LOGO*/
     height: 120px;
-    display: flex;
-
+    Display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 header{
@@ -35,6 +36,7 @@ header a:hover{
 .navegacao{            /*barra de NAVEGAÇÃO*/     
     padding: 20px;       /*caixa que mantem os links */
     margin-top: 50px;     /*afasta a caixa da tela superior*/
+    margin-right: 70px;
 }
 
 .caixa-inicio{
@@ -72,8 +74,6 @@ header a:hover{
 }
 
 #inicio button{
-    display: flex;
-    justify-content: center;
     padding: 10px 20px;
     font-size: 18px;
     font-family: "Cinzel Decorative", serif;       /*fonte do botão*/
@@ -83,6 +83,10 @@ header a:hover{
     color: white;
     border: none;
     cursor: pointer;
+}
+
+#inicio button a{
+    text-decoration: none;
 }
 
 #inicio button:hover{
@@ -142,7 +146,7 @@ header a:hover{
     width: 80%;
     padding-left: 55px;
     padding-top: 10px;
-   
+    padding-bottom: 30px;
 }
 
 #servicos h2{
