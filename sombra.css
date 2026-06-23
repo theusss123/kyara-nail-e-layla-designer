@@ -225,6 +225,9 @@ footer a{
         flex-wrap: wrap;
         justify-content: center;
     }
+    .rodape{
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width:870px){
@@ -236,3 +239,14 @@ footer a{
     }
 }
 
+@media (max-width:450px){
+    .introducao{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .servicos{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
