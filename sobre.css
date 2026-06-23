@@ -7,8 +7,6 @@
 
 }
 
-
-
 header img{             /*LOGO DO SITE*/
     width: 120px;  /*TAMANHO DO LOGO*/
     height: 120px;
@@ -58,7 +56,6 @@ h1{
 .layla img{
     width: 350px;
     height: 500px;
-    margin-right: 60px;
     border-radius: 20px;
 }
 
@@ -83,7 +80,6 @@ h1{
 .kyara img{
     width: 350px;
     height: 500px;
-    margin-right: 60px;
     border-radius: 20px;
 }
 
@@ -118,10 +114,31 @@ footer h2{
 }
 
 footer img{
+    display: flex;
+    justify-content: center;
     width: 120px;
     height: 120px;
-    margin-right: 100px;
     margin-top: 100px;
+}
+
+.local{
+    min-width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-footer{
+    min-width: 370px;
+    display: flex;
+    justify-content: center;
+}
+
+.insta{
+    min-width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .direitos{
