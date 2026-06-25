@@ -231,6 +231,21 @@ footer a{
 }
 
 @media (max-width:870px){
+    .galeria-imagens{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .rodape{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .introducao{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width:870px){
     .texto-servicos{
         margin: 20px;
     }
@@ -239,7 +254,7 @@ footer a{
     }
 }
 
-@media (max-width:450px){
+@media (max-width:767px){ /*isso é para celular*/
     .introducao{
         flex-wrap: wrap;
         justify-content: center;
@@ -249,4 +264,5 @@ footer a{
         justify-content: center;
         margin-bottom: 20px;
     }
+
 }
