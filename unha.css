@@ -39,6 +39,13 @@ header a:hover{
     margin-right: 70px;
 }
 
+
+
+
+
+
+
+
 .introducao{
     display: flex;
     justify-content: center;
@@ -466,6 +473,7 @@ footer a{
         flex-wrap: wrap;
     }
 }
+
 @media (max-width:870px){
     .galeria-imagens{
         flex-wrap: wrap;

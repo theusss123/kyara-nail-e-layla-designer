@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
 
 *{
@@ -6,6 +7,7 @@
     padding: 0%;
 
 }
+
 body{
     overflow-x: hidden; /*permite que nao aparesa uma linha horisontal cuando algo sai da tela*/
 }
@@ -45,10 +47,22 @@ header a:hover{
     margin-top: 50px;     /*afasta a caixa da tela superior*/
     margin-right: 70px;
 }
-.links{          /*esse aqui vai eliminar o espaco que <a> produce por defeito*/
-    display:flex;
-    gap:20px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 h1{
     font-family: "Cinzel Decorative", serif;       /*fonte do título da página*/
     text-align: center;
@@ -57,9 +71,9 @@ h1{
 }
 
 .layla{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 100px;
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:100px;
 }
 
 .layla img{                  
@@ -82,11 +96,10 @@ h1{
 }
 
 .kyara{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 100px;
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:100px;
 }
-
 .kyara img{
     width: 100%;
     max-width: 350px;
@@ -174,84 +187,83 @@ footer a{
     font-style: normal;
     color: black;
 }
-
-@media (max-width:768px){
-
-header{
-    flex-direction: column;
-    align-items: center;
-}
-
-.navegacao{
-    margin-top:20px;
-    margin-right:0;
-    padding:0;
-}
-
-.links{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    gap:15px;
-}
-
-h1{
-    font-size:32px;
-}
-
-.layla{
-    flex-direction: column;
-    align-items: center;
-    gap:30px;
-    margin-top:50px;
-}
-.kyara{
-    flex-direction: column-reverse;     /*com esse negocio se consegue fazer que a imagen fique acima sa info de paragrafo /muito util*/
-    align-items: center;
-    gap:30px;
-    margin-top:50px;
-}
-
-.layla p{
-    width:100%;
-    max-width:400px;
-    padding:25px;
-}
-.kyara p{
-    width:100%;
-    max-width:400px;
-    padding:25px;
-}
-
-.rodape{
-    flex-direction:column;
-    align-items:center;
-    text-align:center;
-    gap:40px;
-}
-
-.local{
-    min-width:auto;
-
-}
-.logo-footer{
-    min-width:auto;
-
-}
-.insta{
-    min-width:auto;
-}
-
-footer h2{
-    margin-top:20px;
-}
-
-footer img{
-    margin-top:20px;
-}
+footer a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
 }
 
 
+@media (max-width: 767px){
+
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navegacao{
+        margin-top: 20px;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    .links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+
+    .layla{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-top: 50px;
+    }
+
+    .kyara{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+        margin-top: 50px;
+    }
+
+    .layla img,
+    .kyara img{
+        max-width: 300px;
+    }
+
+    .layla p,
+    .kyara p{
+        max-width: 90%;
+        padding: 25px;
+    }
+
+    .rodape{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .local,
+    .logo-footer,
+    .insta{
+        min-width: auto;
+    }
+
+    footer h2,
+    footer img{
+        margin-top: 20px;
+    }
+}
 
 
 
