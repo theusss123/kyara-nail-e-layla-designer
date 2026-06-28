@@ -464,14 +464,14 @@ footer a{
     font-style: normal;
     color: black;
 }
+
 @media (max-width:1320px){
     .galeria-imagens{
         flex-wrap: wrap;
         justify-content: center;
     }
-    .rodape{
-        flex-wrap: wrap;
-    }
+    
+    
 }
 
 @media (max-width:870px){
@@ -480,9 +480,12 @@ footer a{
         justify-content: center;
     }
     .rodape{
-        flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        gap:30px;
     }
+   
     .introducao{
         flex-wrap: wrap;
         justify-content: center;
@@ -494,6 +497,12 @@ footer a{
     .texto-servicos{
         margin: 20px;
     }
+    .rodape{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        gap:30px;
+    }
     .navegacao{
         margin-right: 20px;
     }
@@ -502,6 +511,12 @@ footer a{
     .introducao{
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .rodape{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        gap:30px;
     }
     .servicos{
         flex-wrap: wrap;
