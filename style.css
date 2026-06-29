@@ -278,4 +278,56 @@ footer a{
     color: black;
 }
 
+@media (max-width:870px){
+    .rodape{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        gap:30px;
+    }
+    .navegacao{
+        margin-right: 20px;
+    }
+
+}
+@media (max-width:767px){ /*isso é para celular*/
+    
+    #servicos{
+    width: 95%;
+    padding: 20px;
+    }
+    #introducao{
+        flex-wrap: wrap;
+
+    } 
+    #caixa-sobre{
+    width:90%;
+    height:auto;
+    padding:20px;
+    margin-top:0;
+    }
+    .media-start{                 /*agrege masi uma id na parte de index.html */
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    
+    }
+    .galeria-servicos{
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+    }
+    .hover{
+    width: 100%;
+    max-width: 300px;
+    margin: 0;
+    }
+    #servicos img{
+    width: 100%;
+    height: auto;
+    display: block;
+    }
+
+}
+
 

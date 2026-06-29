@@ -475,6 +475,9 @@ footer a{
 }
 
 @media (max-width:870px){
+    .texto-servicos{
+        margin: 20px;
+    }
     .galeria-imagens{
         flex-wrap: wrap;
         justify-content: center;
@@ -490,22 +493,10 @@ footer a{
         flex-wrap: wrap;
         justify-content: center;
     }
-
-}
-
-@media (max-width:870px){
-    .texto-servicos{
-        margin: 20px;
-    }
-    .rodape{
-        flex-direction:column;
-        align-items:center;
-        text-align:center;
-        gap:30px;
-    }
     .navegacao{
         margin-right: 20px;
     }
+
 }
 @media (max-width:767px){ /*isso é para celular*/
     .introducao{
