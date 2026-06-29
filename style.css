@@ -143,9 +143,9 @@ header a:hover{
 #servicos{
     background-color: #dc6894;
     width: 80%;
-    padding-left: 55px;
     padding-top: 10px;
     padding-bottom: 30px;
+    border-radius: 20px;
 }
 
 #servicos h2{
@@ -167,7 +167,7 @@ header a:hover{
 }
 
 #servicos img{
-    width:280px;
+    width:270px;
     height: 300px;
 }
 
@@ -179,6 +179,8 @@ header a:hover{
 .galeria-servicos{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 .hover{
